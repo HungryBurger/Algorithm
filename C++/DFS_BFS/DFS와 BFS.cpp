@@ -34,7 +34,6 @@ void DFS(int go) {
 		}
 	}
 }
-
 void BFS(int go)
 {
 	queue<int> Q;
