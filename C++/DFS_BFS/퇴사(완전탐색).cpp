@@ -5,7 +5,7 @@ using namespace std;
 int N, T[16], P[16];
 int result = 0;
 
-int dfs(int,int);
+void dfs(int,int);
 int main()
 {
 	cin >> N;
@@ -13,12 +13,14 @@ int main()
 		cin >> T[i];
 		cin >> P[i];
 	}
-	cout << dfs(1,0) << endl;
+	dfs(1, 0);
+	cout << result << endl;
+	return 0;
 }
-int dfs(int go,int sum) {
+void dfs(int go,int sum) {
 	if (go == N+1) {
 		result = max(result, sum);
-		return result;
+		return;
 	}
 	if (go + T[go] <= N + 1) {
 		dfs(go + T[go], sum + P[go]);
