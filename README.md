@@ -1,5 +1,8 @@
 # Algorithm
-Algorithm study(C++, Python)
+Algorithm study(C++, JAVA, Python)
+
+## JAVA Functions
+
 
 ## DFS 
 
