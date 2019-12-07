@@ -1,10 +1,20 @@
 # Algorithm
+
 Algorithm study(C++, JAVA, Python)
 
-## JAVA Functions
+## C++
+
+
+## JAVA 
 
 
 ## DFS 
 
+Reference
+
 ## BFS
- 
+
+Reference
+
+## BruteForce
+
