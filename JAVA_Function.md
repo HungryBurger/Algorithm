@@ -1,13 +1,17 @@
+# JAVA FUNCTION
 
+
+## ArrayList
+<b>
 ArrayList 사용방법
-
+</b>
 Import 선언
 import java.util.ArrayList
 
-ArrayList 생성 
+<b>ArrayList 생성</b> 
 ArrayList<Integer> arrayList = new ArrayList<>();
 
-ArrayList에 데이터 추가하기
+<b>ArrayList에 데이터 추가하기</b>
 
 -> void add(int index, E element)
 
@@ -22,7 +26,7 @@ ArrayList에 데이터 추가하기
 
         밀어넣는 것이 가능하다.
 
-ArrayList에 ArrayList를 추가하기
+<b>ArrayList에 ArrayList를 추가하기</b>
 -> void addAll(int index, Collection<>)
 
 예시
@@ -30,7 +34,7 @@ ArrayList에 ArrayList를 추가하기
         arrayList.addAll(arrayList2);
 
 
-ArrayList 데이터 제거하기
+<b>ArrayList 데이터 제거하기</b>
 
 -> boolean remove(int index)
 
@@ -39,7 +43,7 @@ ArrayList 데이터 제거하기
     arraList.remove(1)
 
 
-ArrayList로부터 특정 데이터 가져오기
+<b>ArrayList로부터 특정 데이터 가져오기</b>
 
 -> .subList(int fromIndex, int toIndex)
 
