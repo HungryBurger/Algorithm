@@ -4,14 +4,16 @@
 ## ArrayList
 <b>
 ArrayList 사용방법
-</b>
+</b><br>
 Import 선언
 import java.util.ArrayList
 
 <b>ArrayList 생성</b> 
+<br>
 ArrayList<Integer> arrayList = new ArrayList<>();
 
 <b>ArrayList에 데이터 추가하기</b>
+<br>
 
 -> void add(int index, E element)
 
@@ -26,7 +28,7 @@ ArrayList<Integer> arrayList = new ArrayList<>();
 
         밀어넣는 것이 가능하다.
 
-<b>ArrayList에 ArrayList를 추가하기</b>
+<b>ArrayList에 ArrayList를 추가하기</b><br>
 -> void addAll(int index, Collection<>)
 
 예시
