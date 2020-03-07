@@ -1,12 +1,20 @@
 # Algorithm
 
-Algorithm study(C++, JAVA, Python)
+Algorithm study(C++, JAVA)
 
 ## C++
 
 
 ## JAVA 
 
+<b>
+
+[About JAVA](https://github.com/MCJoo/Algorithm/blob/master/JAVA_Function.md)
+ 
+<br>
+  
+[JAVA Function](https://github.com/MCJoo/Algorithm/blob/master/JAVA_Function.md)
+</b>
 
 ## DFS (Depth-First-Search)
 
