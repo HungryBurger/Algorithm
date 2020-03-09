@@ -54,3 +54,6 @@ ArrayList<Integer> arrayList = new ArrayList<>();
     arrayList.subList(1,3);
 
 
+## LinkeList
+
+
