@@ -3,17 +3,17 @@
 
 ## ArrayList
 <b>
-ArrayList 사용방법
-</b><br>
-Import 선언
+
+### ArrayList 사용방법
+
+### Import 선언
 import java.util.ArrayList
 
-<b>ArrayList 생성</b> 
-<br>
+### ArrayList 생성
+
 ArrayList<Integer> arrayList = new ArrayList<>();
 
-<b>ArrayList에 데이터 추가하기</b>
-<br>
+### ArrayList에 데이터 추가하기
 
 -> void add(int index, E element)
 
@@ -55,5 +55,25 @@ ArrayList<Integer> arrayList = new ArrayList<>();
 
 
 ## LinkeList
+
+
+# Sort 방법
+
+### Array 정렬
+int [] arr
+
+오름차순
+Arrays.sort(arr)
+내림차순
+Arrays.sort(arr, Comparator.reverseOrder())
+
+### List or ArrayList 정렬
+
+오름차순
+Collection.sort(ArrayList)
+
+내림차순
+Collection.sort(ArrayList,Comparator.reverseOrder())
+
 
 
