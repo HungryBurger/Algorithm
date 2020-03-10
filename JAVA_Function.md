@@ -1,8 +1,7 @@
 # JAVA FUNCTION
+<hr>
 
-
-## ArrayList
-<b>
+# ArrayList 사용방법
 
 ### ArrayList 사용방법
 
@@ -64,6 +63,7 @@ int [] arr
 
 오름차순
 Arrays.sort(arr)
+
 내림차순
 Arrays.sort(arr, Comparator.reverseOrder())
 
@@ -77,3 +77,20 @@ Collection.sort(ArrayList,Comparator.reverseOrder())
 
 
 
+# 2중 반복문(For, While) 나오는 방법
+
+```
+loop: for (int i = 0; i < 9; i++) {
+			for (int k = i + 1; k < 9; k++) {
+				int result = sum - goblin.get(i) - goblin.get(k);
+				if (result == 100) {
+					ArrayList<Integer> deletion = new ArrayList<>();
+					deletion.add(goblin.get(i));
+					deletion.add(goblin.get(k));
+					goblin.removeAll(deletion);
+					break loop;
+				}
+			}
+		}
+```
+loop라는 이름을 설정해주고 break loop를 하면 해당 루프를 나올 수 있다.
