@@ -33,10 +33,9 @@ void search(Node root) {
     }
   }
 }
-https://gmlwjd9405.github.io/2018/08/14/algorithm-dfs.html
 ```
 
-Reference
+Reference : https://gmlwjd9405.github.io/2018/08/14/algorithm-dfs.html
 
 ## BFS
 
