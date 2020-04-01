@@ -7,16 +7,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class 톱니바퀴_14891 {
-
 	static ArrayList<ArrayList<Integer>> Gear = new ArrayList<ArrayList<Integer>>();
 	static int[][] rotate;
-
+	
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in)); // 선언
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		for (int i = 0; i < 4; i++) {
-			String s = bf.readLine(); // String
+			String s = bf.readLine(); 
 			ArrayList<Integer> temp = new ArrayList<Integer>();
 			for (int k = 0; k < s.length(); k++) {
 				// 숫자로 변환
@@ -40,13 +37,16 @@ public class 톱니바퀴_14891 {
 		System.out.println(
 				Gear.get(0).get(0) * 1 + Gear.get(1).get(0) * 2 + Gear.get(2).get(0) * 4 + Gear.get(3).get(0) * 8);
 	}
+	
+	//Solving을 위해 만든 함수
 
 	public static void Solve() {
 		for (int i = 0; i < rotate.length; i++) {
 
 			// 같은 극이라면 돌릴수없다.
 			// 같은 극이 아니라면 돌린다.
-			// 1번바퀴 일때.
+			
+			// 1번 바퀴 일때.
 			if (rotate[i][0] == 1) {
 				// 2번도 돌아갈 때
 				if (Gear.get(0).get(2) != Gear.get(1).get(6)) {
@@ -112,7 +112,8 @@ public class 톱니바퀴_14891 {
 			}
 		}
 	}
-
+	
+	//톱니바퀴를 돌리기 위한 함수
 	public static void Rotate_gear(int Gear_num, int rotate_direction) {
 		Gear_num--;
 		// 시계 방향
